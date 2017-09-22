@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Sansita One";
+    src: url("../../fonts/SansitaOne.eot") format("eot"),url("../../fonts/SansitaOne.woff") format("woff"),url("../../fonts/SansitaOne.ttf") format("truetype"),url("../../fonts/SansitaOne.svg#SansitaOne") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    font-family: "Sansita One", sans-serif;
+    color: #f43543;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5d6462;
+}
+
+.intro {
+    margin: 35px 0px;
+    width: 100%;
+    height: 325px;
+}
+
+.intro #container {
+    width: 430px;
+    height: 274px;
+    position: relative;
+}
+
+.intro .laptop {
+    width: 575px;
+    height: 350px;
+    margin-left: 75px;
+}
+
+.intro #container .cursor {
+    width: 50px;
+    position: absolute;
+}
+
+.intro #container .pencil {
+    width: 40px;
+    position: absolute;
+}
+
+.intro #container .chatbox {
+    position: absolute;
+    width: 100px;
+    left: 320px;
+    top: 130px;
+}
+
+.intro p {
+    padding-top: 55px;
+    left: 760px;
+    bottom: 100px;
+
+}
+
+.pitch {
+    height: 300px;
+}
+
+.pitch p {
+    padding-top: 55px;
+    text-align: right;
+}
+
+.pitch .image-group {
+    width: 40%;
+}
+
+.pitch .image-group .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.pitch .image-group .plus {
+    width: 100px;
+    height: 100px;
+    left: 140px;
+    top: 90px;
+}
+
+.pitch .image-group .surfly-logo {
+    height: 80px;
+    left: 240px;
+    top: 190px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashboard .gif {
+    height: 315px;
+    width: 500px;
+}
+
+.dashboard p {
+    padding-top: 75px;
+}
+
+.usage {
+    margin: 35px 0px 50px 0px;
+}
+
+.usage p {
+    text-align: right;
+    padding-top: 68px;
+}
+
+.conclusion p {
+    width: 85%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+.closing {
+    margin: 50px;
+}
+
+.closing p {
+    font-size: 24px;
+}
+
+.closing .consultant-name {
+    font-family: "Sansita One", sans-serif;
+    color: #f43543;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 75px;
+    letter-spacing: 1px;
+}
+
+.closing .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 350px;
+    right: 0;
+}
+
+.calendly {
+    margin: 125px 0px 25px 0px;
+    position: relative;
+}
+
+.calendly p {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.calendly-inline-widget iframe {
+    overflow: hidden;
+}
+
+.updated {
+    font-size: 20px;
+    text-align: center;
+    color: #5d6462;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 35px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .intro {
+        height: 185px;
+    }
+
+    .intro .laptop {
+        width: 365px;
+        height: 217px;
+        margin: 0px 19px;
+    }
+
+    .intro #container {
+        width: 275px;
+        height: 170px;
+        margin-top: -205px;
+        margin-left: 65px;
+    }
+
+    .intro #container .chatbox {
+        width: 75px;
+        margin-left: -130px;
+        margin-top: -60px;
+    }
+
+    .intro #container .cursor {
+        width: 40px;
+    }
+
+    .intro #container .pencil {
+        width: 30px;
+    }
+}

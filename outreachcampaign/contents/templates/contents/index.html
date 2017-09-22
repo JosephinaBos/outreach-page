@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Demo for "prospect" at "company"</title>
+    <link rel="stylesheet" href="{% static 'contents/style.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/bad73222ca.js"></script>
@@ -24,11 +26,11 @@
         <div class="intro container">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
-                    <img class="laptop" src="../static/images/empty-macbook.png">
+                    <img class="laptop" src="../../../static/images/empty-macbook.png">
                     <div id="container">
-                        <img class="cursor" src="../static/images/cursor.png">
-                        <img class="pencil" src="../static/images/pencil.png">
-                        <img class="chatbox" src="../static/images/chatbox.gif">
+                        <img class="cursor" src="../../../static/images/cursor.png">
+                        <img class="pencil" src="../../../static/images/pencil.png">
+                        <img class="chatbox" src="../../../static/images/chatbox.gif">
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -40,15 +42,15 @@
             <div class="row">
                 <p class="col-xs-12 col-md-6">"Inject pitch here according to role"</p>
                 <div class="image-group">
-                    <img class="col-xs-4 col-md-2 logo" src="../static/images/aegon.png">
-                    <img class="col-xs-4 col-md-2 plus" src="../static/images/plus.png">
-                    <img class="col-xs-4 col-md-2 surfly-logo" src="../static/images/surfly.png">
+                    <img class="col-xs-4 col-md-2 logo" src="../../../static/images/aegon.png">
+                    <img class="col-xs-4 col-md-2 plus" src="../../../static/images/plus.png">
+                    <img class="col-xs-4 col-md-2 surfly-logo" src="../../../static/images/surfly.png">
                 </div>
             </div>
         </div>
         <div class="dashboard container">
             <div class="row">
-                <img class="gif col-xs-12 col-md-6" src="../static/images/admin-queue.gif">
+                <img class="gif col-xs-12 col-md-6" src="../../../static/images/admin-queue.gif">
                 <p class="col-xs-12 col-md-6">In your Surfly dashboard, you have all the tools you need to customize your sessions, manage your agents, view your history logs and answer incoming co-browsing requests.</p>
             </div>
         </div>
@@ -67,7 +69,7 @@
             <div class="row">
                 <p class="col-xs-6">I look forward to talking to you,</p>
                 <p class="col-xs-2 consultant-name">Carolina</p>
-                <img class="col-xs-1 avatar" src="../static/images/Carolina.png">
+                <img class="col-xs-1 avatar" src="../../../static/images/Carolina.png">
             </div>
         </div>
         <div class="calendly">
