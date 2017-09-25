@@ -18,9 +18,9 @@
     <div class="content-wrapper container">
         <div class="header row">
             <div class="col-xs-12">
-                <h1>Hi "prospect",</h1>
+                <h1>Hi {{ first_name }},</h1>
                 <h1>Welcome to this personalized demo</h1>
-                <h1>for "company"</h1>
+                <h1>for {{ company_name }}</h1>
             </div>
         </div>
         <div class="intro container">
@@ -31,6 +31,7 @@
                         <img class="cursor" src="../../../static/images/cursor.png">
                         <img class="pencil" src="../../../static/images/pencil.png">
                         <img class="chatbox" src="../../../static/images/chatbox.gif">
+                        <img class="background" src="{% website %}">
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -40,10 +41,10 @@
         </div>
         <div class="pitch container">
             <div class="row">
-                <p class="col-xs-12 col-md-6">"Inject pitch here according to role"</p>
+                <p class="col-xs-12 col-md-6">{{ pitch }}</p>
                 <div class="image-group">
-                    <img class="col-xs-4 col-md-2 logo" src="../../../static/images/aegon.png">
-                    <img class="col-xs-4 col-md-2 plus" src="../../../static/images/plus.png">
+                    <img class="col-xs-4 col-md-2 logo" src="{% logo %}">
+                    <img class="col-xs-4 col-md-2 plus" src="{../../../static/images/plus.png}">
                     <img class="col-xs-4 col-md-2 surfly-logo" src="../../../static/images/surfly.png">
                 </div>
             </div>
@@ -68,8 +69,8 @@
         <div class="closing" class="container">
             <div class="row">
                 <p class="col-xs-6">I look forward to talking to you,</p>
-                <p class="col-xs-2 consultant-name">Carolina</p>
-                <img class="col-xs-1 avatar" src="../../../static/images/Carolina.png">
+                <p class="col-xs-2 consultant-name">{{ consultant_name }}</p>
+                <img class="col-xs-1 avatar" src="{% url consultant_avatar %}" />
             </div>
         </div>
         <div class="calendly">
@@ -79,7 +80,7 @@
             <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
 <!-- Calendly inline widget end -->
         </div>
-        <p class="updated">Last updated: "date"</p>
+        <p class="updated">Last updated: {{ date }}</p>
     </div>
     <script>
         $(document).ready(function() {
