@@ -13,7 +13,6 @@ class Lead(models.Model):
     website = models.CharField(max_length=200)
     pitch = models.TextField()
     consultant_name = models.CharField(max_length=200)
-    consultant_avatar = models.CharField(max_length=200)
     date = models.DateTimeField(default=timezone.now)
 
 

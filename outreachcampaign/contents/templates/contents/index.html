@@ -31,7 +31,7 @@
                         <img class="cursor" src="../../../static/images/cursor.png">
                         <img class="pencil" src="../../../static/images/pencil.png">
                         <img class="chatbox" src="../../../static/images/chatbox.gif">
-                        <img class="background" src="{% website %}">
+                        <img class="background" src=" {{ website }}">
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -43,8 +43,8 @@
             <div class="row">
                 <p class="col-xs-12 col-md-6">{{ pitch }}</p>
                 <div class="image-group">
-                    <img class="col-xs-4 col-md-2 logo" src="{% logo %}">
-                    <img class="col-xs-4 col-md-2 plus" src="{../../../static/images/plus.png}">
+                    <img class="col-xs-4 col-md-2 logo" src="//logo.clearbit.com/{{company_name}}.com">
+                    <img class="col-xs-4 col-md-2 plus" src="../../../static/images/plus.png">
                     <img class="col-xs-4 col-md-2 surfly-logo" src="../../../static/images/surfly.png">
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <div class="row">
                 <p class="col-xs-6">I look forward to talking to you,</p>
                 <p class="col-xs-2 consultant-name">{{ consultant_name }}</p>
-                <img class="col-xs-1 avatar" src="{% url consultant_avatar %}" />
+                <img class="col-xs-1 avatar" src="{% static consultant_avatar %}" />
             </div>
         </div>
         <div class="calendly">

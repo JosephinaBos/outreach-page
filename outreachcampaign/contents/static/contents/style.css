@@ -59,7 +59,6 @@ p {
     padding-top: 55px;
     left: 760px;
     bottom: 100px;
-
 }
 
 .pitch {
@@ -195,14 +194,14 @@ p {
     .intro .laptop {
         width: 365px;
         height: 217px;
-        margin: 0px 19px;
+        margin: 0px -13px;
     }
 
     .intro #container {
         width: 275px;
         height: 170px;
         margin-top: -205px;
-        margin-left: 65px;
+        margin-left: 32px;
     }
 
     .intro #container .chatbox {
@@ -217,5 +216,68 @@ p {
 
     .intro #container .pencil {
         width: 30px;
+    }
+
+    .pitch p {
+        padding-top: 338px;
+        text-align: center;
+    }
+
+    .pitch .image-group {
+        margin-top: -438px;
+    }
+
+    .pitch .image-group .logo {
+        height: 85px;
+    }
+
+    .pitch .image-group .plus {
+        top: -62px;
+        height: 86px;
+    }
+
+    .pitch .image-group .surfly-logo {
+        top: -98px;
+        height: 54px;
+    }
+
+    .dashboard .gif {
+        height: 215px;
+        width: 400px;
+        margin-top: 360px;
+    }
+
+    .dashboard p {
+        padding-top: 28px;
+    }
+
+    .usage p {
+        text-align: center;
+        padding-top:  230px;
+    }
+
+    .usage iframe {
+        margin-top: -481px;
+        height: 230px;
+    }
+
+    .conclusion p {
+        margin-top: -25px;
+    }
+    .closing p {
+        font-size: 22px;
+    }
+
+    .closing .consultant-name {
+        margin-left: 20px;
+    }
+
+    .closing .avatar {
+        margin-top: 50px;
+        margin-left: -115px;
+    }
+
+    .calendly {
+        margin-top: 70px;
     }
 }
